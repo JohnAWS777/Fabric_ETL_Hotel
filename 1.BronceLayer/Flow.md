@@ -6,7 +6,7 @@
 <img width="1823" height="636" alt="image" src="https://github.com/user-attachments/assets/c5c232fc-ad22-4e21-ab74-0ac14ae846e4" />
 4. We can query our initial data using the SQL Analytics Endpoint: 
 <img width="1848" height="768" alt="image" src="https://github.com/user-attachments/assets/9312ca85-cc2e-401d-a2a6-903304d8c4e0" />
-5. We can query our initial data using SQL. We are going to use this feature in the following stages: 
+5. We are going to use the prior feature in the following stages: 
 <img width="1825" height="851" alt="image" src="https://github.com/user-attachments/assets/ed2cceb5-b1c3-4234-b7a6-c0de4e63fb3d" />
 
 
