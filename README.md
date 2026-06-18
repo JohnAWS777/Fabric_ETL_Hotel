@@ -1,6 +1,6 @@
 # Fabric_ETL_Hotel
 This project will create an ETL using a Lakehouse, notebooks, and a warehouse from scratch, based on the following architecture:  
-<img width="1037" height="572" alt="image" src="https://github.com/user-attachments/assets/f595ced7-8a6c-45ce-90ab-7ef27490f02d" />
+<img width="1026" height="568" alt="image" src="https://github.com/user-attachments/assets/7eb3d91f-6a19-41cb-8f26-40c65a0ec7fe" />
 
 ---
 ## 🏗️ Data Architecture
