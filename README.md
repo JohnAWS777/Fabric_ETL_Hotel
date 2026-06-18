@@ -7,7 +7,7 @@ This project will create an ETL from scratch using a Lakehouse, notebooks, and a
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from an xlsx File into a Delta Table.
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from a CSV File into a Delta Table.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
@@ -44,7 +44,7 @@ This project involves:
 Develop a modern data warehouse using Microsoft Fabric to consolidate logistics data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
-- **Data Sources**: Import data from a logistics company provided as XLSX file.
+- **Data Sources**: Import data from a hotel company provided as CSV file.
 - **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
 - **Transformation**: Build a dimensional model using the file from the Silver layer.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
@@ -57,8 +57,8 @@ Develop a modern data warehouse using Microsoft Fabric to consolidate logistics 
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
 - **Customer Behavior**
-- **Vendor Performance**
-- **Sales Trends**
+- **Booking Performance**
+- **Deposit Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making. 
 ## 📂 Repository Structure
@@ -71,8 +71,10 @@ Fabric_ETL_Gen2/
 │   ├── Flow.md                         # This file shows the processes developed in the Bronce stage
 ├── 2.SilverLayer/                      # Explains the silver layer
 │   ├── Flow.md                           # This file shows the processes developed in the Silver stage
+│   ├── DW_Silver.sql                      # This file shows the SQL code used in this phase
 ├── 3.GoldLayer/                        # Explains the gold layer
 │   ├── Flow.md                           # This file shows the processes developed in the Gold stage
+│   ├── DW_Gold.sql                      # This file shows the SQL code used in this phase
 ├── 4.SemanticModel/                    # Explains the semantic model
 │   ├── DimensionalModel.md               # This file shows the processes involved to create the semantic model
 │
